@@ -1,6 +1,7 @@
 {
   "dependencies": {
-	"com.unity.inputsystem": "1.0.0"
+	"com.unity.inputsystem": "1.0.0",
+  "com.unity.cinemachine": "1.0.0",
   },
   "description": "A Dirtywave M8 tracker to drop into your Unity scene",
   "displayName": "M8 Unity",
