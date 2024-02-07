@@ -45,11 +45,11 @@ namespace Dirtywave.M8.Core
                 _audio.Play();
         }
 
-        private void OnValidate()
-        {
-            var mics = Microphone.devices;
-            Debug.Log($"Microphones: {String.Join(", ", mics)}");
-        }
+        // private void OnValidate()
+        // {
+        //     var mics = Microphone.devices;
+        //     Debug.Log($"Microphones: {String.Join(", ", mics)}");
+        // }
 
         private void OnDisable()
         {
