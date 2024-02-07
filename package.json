@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+	"com.unity.inputsystem": "1.0.0"
+  },
+  "description": "A Dirtywave M8 tracker to drop into your Unity scene",
+  "displayName": "M8 Unity",
+  "name": "leftout.m8unity",
+  "unity": "2022.3",
+  "version": "0.0.1",
+  "samples": [
+  ]
+}
