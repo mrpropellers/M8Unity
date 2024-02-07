@@ -1,6 +1,6 @@
 # M8Unity
 =======
-**M8Unity** is a client implementation with Unity for M8 Tracker Headless.
+**M8Unity** is a client implementation with Unity for the Dirtywave M8. It will render into Unity the screen and audio of any device running the M8 tracker firmware - either a Dirtywave M8 Tracker or a Teensy 4.1 running the M8 headless build.
 ## Installation Instructions
 - Plug your M8 or teensy 4.1 w/ headless into a USB port
 - Clone this repo into your URP-compatible Project's Packages directory
@@ -10,7 +10,9 @@
 Dirtywave (M8 Tracker producer) provides a special "headless" firmware that runs on Teensy microcontrollers without I/O functionality.
 There are several client implementations to add I/O to those headless devices.
 
-M8Unity is one of those implementations but with Unity.
+### Dependencies
+This package depends on Cinemachine, URP, and the New Input System. If you would like to use the Package without those dependencies, you will have to make those modifications yourself!
+
 
 ## Project Status
 
