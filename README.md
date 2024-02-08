@@ -7,9 +7,6 @@
 - Drop the GameBoyRig prefab into your Scene and press Play
 - If nothing broke, it should auto-discover your M8 and you should be ready to go!
 
-Dirtywave (M8 Tracker producer) provides a special "headless" firmware that runs on Teensy microcontrollers without I/O functionality.
-There are several client implementations to add I/O to those headless devices.
-
 ### Dependencies
 This package depends on Cinemachine, URP, and the New Input System. If you would like to use the Package without those dependencies, you will have to make those modifications yourself!
 
